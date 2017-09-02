@@ -4,6 +4,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ember-learn',
+    podModulePrefix: 'ember-learn/pods',
     environment,
     rootURL: '/',
     locationType: 'auto',
